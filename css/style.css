@@ -1,6 +1,16 @@
 header {
     position: fixed;
     width: 100%;
-    display: flexbox;
+    display:flex;
+    flex-direction: column;  
 }
 
+@media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+
+nav ul {
+    display:flex;
+}
