@@ -5,12 +5,25 @@ header {
     flex-direction: column;  
 }
 
-@media (max-width: 600px) {
-    header {
-      flex-wrap: wrap;
+@media (max-width: 500px) {
+    #header {
+      flex-direction: column;
     }
-  }
-
-nav ul {
-    display:flex;
-}
+    
+    #header-img {
+      display: none;
+    }
+    #mini img {
+      text-align: center
+    }
+   
+    #mini img {
+      padding: 10px;
+    }
+    #nav-bar {
+      width: 90%;
+      height: 40px;
+      justify-content: space-around;
+    }
+      
+   }
